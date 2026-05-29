@@ -6,7 +6,7 @@ git config --global user.email "chtolega7777@gmail.com"
 git status
 
 2) команда для добавления в буфер ваших новых файлов и пробел ставите точку для того чтобы добавить все файлы
-git add
+git add .
 
 3) сохраняет данные
 git commit -m "lesson21"
@@ -16,3 +16,6 @@ git push origin master/main
 
 5) создает ветку
 git branch name_branch
+
+6) меняет ветку
+git switch name_branch

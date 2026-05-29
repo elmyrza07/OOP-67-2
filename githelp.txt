@@ -10,3 +10,9 @@ git add
 
 3) сохраняет данные
 git commit -m "lesson21"
+
+4) это конмада заливает в репохиторий проект твой
+git push origin master/main
+
+5) создает ветку
+git branch name_branch

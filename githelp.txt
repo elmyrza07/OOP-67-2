@@ -6,7 +6,7 @@ git config --global user.email "chtolega7777@gmail.com"
 git status
 
 2) команда для добавления в буфер ваших новых файлов и пробел ставите точку для того чтобы добавить все файлы
-git add
+git add .
 
 3) сохраняет данные
 git commit -m "lesson21"
@@ -16,3 +16,22 @@ git push origin master/main
 
 5) создает ветку
 git branch name_branch
+
+6) меняет ветку
+git switch name_branch
+
+7)Создание виртуальной среды
+py -m venv name_venv
+python3 -m venv name_venv
+python -m venv name_venv
+
+8) Активация виртуальной среды
+source venv/bin/activate
+my_venv\Scripts\activate
+source my_venv/Scripts/activate
+
+9) Скачивает все в requirements
+pip install -r requirements.txt
+
+10) Показывает все использованные библиотеки
+pip freeze
